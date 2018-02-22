@@ -1,35 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<artifactPackage name="Delete - BSO-BDD">      
-    <component name="conf">
-        <artifacts>
-            <artifact artifactType="properties" definitionName="bso-bdd-test1" type="local" version="3.0" path="/home/ec2-user/testManifest/bso-bdd-test1.properties" tokenized="false" tokenPattern="@@TOKEN@@"/>
-        </artifacts>
-    </component>
-    <component name="jboss">
-        <artifacts>
-            <artifact artifactType="properties" definitionName="bso-bdd-test2" type="local" version="3.0" path="/home/ec2-user/testManifest/bso-bdd-test2.properties" tokenized="false" tokenPattern="@@TOKEN@@"/>
-        </artifacts>
-    </component>
-</artifactPackage>
-<artifactPackage name="Delete - Proteo3">
-    <component name="jboss">
-        <artifacts>
-            <artifact artifactType="properties" definitionName="p3o-test1" type="local" version="3.0" path="/home/ec2-user/testManifest/p3o-test1.properties" tokenized="false" tokenPattern="@@TOKEN@@"/>
-        </artifacts>
-        <artifacts>
-            <artifact artifactType="properties" definitionName="p3o-test2" type="local" version="3.0" path="/home/ec2-user/testManifest/p3o-test2.properties" tokenized="false" tokenPattern="@@TOKEN@@"/>
-        </artifacts>
-    </component>
-</artifactPackage>
-<artifactPackage name="Delete-WEBMOB">
-    <component name="jboss">
-        <artifacts>
-            <artifact artifactType="war" definitionName="webmob" type="local" version="3.0" path="/home/ec2-user/testManifest/webmob-test1.war" tokenized="false" tokenPattern="@@TOKEN@@"/>
-        </artifacts>
-    </component>
-    <component name="tibco">
-        <artifacts>
-            <artifact artifactType="properties" definitionName="webmob" type="local" version="3.0" path="/home/ec2-user/testManifest/webmob-test2.properties" tokenized="false" tokenPattern="@@TOKEN@@"/>
-        </artifacts>
-    </component> 
-</artifactPackage>
+<artifactsPackages>
+    <artifactPackage name="Delete - BSO-BDD">      
+        <component name="conf">
+            <artifacts>
+                <artifact artifactType="properties" definitionName="bso-bdd-test1" type="local" version="3.0" path="/home/ec2-user/testManifest/bso-bdd-test1.properties" tokenized="false" tokenPattern="@@TOKEN@@"/>
+            </artifacts>
+        </component>
+        <component name="jboss">
+            <artifacts>
+                <artifact artifactType="properties" definitionName="bso-bdd-test2" type="local" version="3.0" path="/home/ec2-user/testManifest/bso-bdd-test2.properties" tokenized="false" tokenPattern="@@TOKEN@@"/>
+            </artifacts>
+        </component>
+    </artifactPackage>
+    <artifactPackage name="Delete - Proteo3">
+        <component name="jboss">
+            <artifacts>
+                <artifact artifactType="properties" definitionName="p3o-test1" type="local" version="3.0" path="/home/ec2-user/testManifest/p3o-test1.properties" tokenized="false" tokenPattern="@@TOKEN@@"/>
+            </artifacts>
+            <artifacts>
+                <artifact artifactType="properties" definitionName="p3o-test2" type="local" version="3.0" path="/home/ec2-user/testManifest/p3o-test2.properties" tokenized="false" tokenPattern="@@TOKEN@@"/>
+            </artifacts>
+        </component>
+    </artifactPackage>
+    <artifactPackage name="Delete-WEBMOB">
+        <component name="jboss">
+            <artifacts>
+                <artifact artifactType="war" definitionName="webmob" type="local" version="3.0" path="/home/ec2-user/testManifest/webmob-test1.war" tokenized="false" tokenPattern="@@TOKEN@@"/>
+            </artifacts>
+        </component>
+        <component name="tibco">
+            <artifacts>
+                <artifact artifactType="properties" definitionName="webmob" type="local" version="3.0" path="/home/ec2-user/testManifest/webmob-test2.properties" tokenized="false" tokenPattern="@@TOKEN@@"/>
+            </artifacts>
+        </component> 
+    </artifactPackage>
+</artifactsPackages>
