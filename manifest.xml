@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<artifactPackage>      
+<artifactPackage name="Delete - BSO-BDD">      
     <module name="Delete - BSO-BDD">
         <artifacts>
             <artifact artifactType="properties" definitionName="bso-bdd-test1" type="local" version="1.0" path="/home/ec2-user/testManifest/bso-bdd-test1.properties" tokenized="false" tokenPattern="@@TOKEN@@"/>
