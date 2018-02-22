@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <artifactPackage>      
-    <module name="p3o-statics">
+    <module name="Delete - BSO-BDD">
         <artifacts>
-            <artifact artifactType="zip" definitionName="p3o-statics-cirbenocliente" type="local" version="7.8" path="/opt/artifacts/P3O-STATICS/p3o-statics-cirbenocliente-7.7.zip" tokenized="false" tokenPattern="@@TOKEN@@"/>
+            <artifact artifactType="properties" definitionName="bso-bdd-test1" type="local" version="1.0" path="/home/ec2-user/testManifest/bso-bdd-test1.properties" tokenized="false" tokenPattern="@@TOKEN@@"/>
+        </artifacts>
+        <artifacts>
+            <artifact artifactType="properties" definitionName="bso-bdd-test2" type="local" version="1.0" path="/home/ec2-user/testManifest/bso-bdd-test2.properties" tokenized="false" tokenPattern="@@TOKEN@@"/>
         </artifacts>
     </module>
-    <module name="p3o-canal">
+    <module name="Delete - Proteo3">
         <artifacts>
-            <artifact artifactType="zip" definitionName="p3o-canal-cirbenocliente" type="local" version="7.6.2" path="/opt/artifacts/P3O-CANAL/p3o-canal-cirbenocliente-7.6.2.zip" tokenized="false" tokenPattern="@@TOKEN@@"/>
+            <artifact artifactType="properties" definitionName="p3o-test1" type="local" version="1.0" path="/home/ec2-user/testManifest/p3o-test1.properties" tokenized="false" tokenPattern="@@TOKEN@@"/>
         </artifacts>
-    </module>  
+        <artifacts>
+            <artifact artifactType="properties" definitionName="p3o-test2" type="local" version="1.0" path="/home/ec2-user/testManifest/p3o-test2.properties" tokenized="false" tokenPattern="@@TOKEN@@"/>
+        </artifacts>
+    </module>
+    <module name="Delete - WEBMOB">
+        <artifacts>
+            <artifact artifactType="war" definitionName="webmob" type="local" version="2.0" path="/home/ec2-user/testManifest/webmob-test1.war" tokenized="false" tokenPattern="@@TOKEN@@"/>
+        </artifacts>
+        <artifacts>
+            <artifact artifactType="properties" definitionName="webmob" type="local" version="2.0" path="/home/ec2-user/testManifest/webmob-test2.properties" tokenized="false" tokenPattern="@@TOKEN@@"/>
+        </artifacts>
+    </module> 
 </artifactPackage>
