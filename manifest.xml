@@ -8,6 +8,8 @@
             <artifact artifactType="properties" definitionName="bso-bdd-test2" type="local" version="1.0" path="/home/ec2-user/testManifest/bso-bdd-test2.properties" tokenized="false" tokenPattern="@@TOKEN@@"/>
         </artifacts>
     </module>
+</artifactPackage>
+<artifactPackage>
     <module name="Delete - Proteo3">
         <artifacts>
             <artifact artifactType="properties" definitionName="p3o-test1" type="local" version="1.0" path="/home/ec2-user/testManifest/p3o-test1.properties" tokenized="false" tokenPattern="@@TOKEN@@"/>
@@ -16,6 +18,8 @@
             <artifact artifactType="properties" definitionName="p3o-test2" type="local" version="1.0" path="/home/ec2-user/testManifest/p3o-test2.properties" tokenized="false" tokenPattern="@@TOKEN@@"/>
         </artifacts>
     </module>
+</artifactPackage>
+<artifactPackage>
     <module name="Delete - WEBMOB">
         <artifacts>
             <artifact artifactType="war" definitionName="webmob" type="local" version="2.0" path="/home/ec2-user/testManifest/webmob-test1.war" tokenized="false" tokenPattern="@@TOKEN@@"/>
