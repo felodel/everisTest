@@ -1,0 +1,15 @@
+{
+  "deploymentPlan":"p3o-statics-%appname-%version",
+  "build":"%version",
+  "project":"p3o-statics",
+  "deploymentTemplate":"DeploymentTemplate",
+  "templateCategory":"TemplateCategory",
+  "application":"P3O-STATICS",
+  "manifest":
+    "<DeploymentManifest name='p3o-statics-%appname-%version' project='p3o-statics' build='%version'>
+      <properties>   
+        <property name='p3o_app_name'>%appname</property>
+        <property name='manifest_url'>%manifest_url</property>
+      </properties>
+    </DeploymentManifest>"
+}
