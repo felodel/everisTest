@@ -1,0 +1,15 @@
+{
+  "deploymentPlan":"bsmov-%appname-%version",
+  "build":"%version",
+  "project":"bswallet",
+  "deploymentTemplate":"BSMOV - Full Deployment",
+  "templateCategory":"BSMOV-BSWallet-Deployment-Template",
+  "application":"BSMOV",
+  "manifest":
+    "<DeploymentManifest name='bsmov-%appname-%version' project='bswallet' build='%version'>
+      <properties>   
+        <property name='bsmov_app_name'>%appname</property>
+        <property name='manifest_url'>%manifest_url</property> 
+      </properties>
+    </DeploymentManifest>"
+}
