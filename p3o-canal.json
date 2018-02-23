@@ -1,15 +1,15 @@
 {
-  "deploymentPlan":"p3o-canal-appname-version",
-  "build":"version",
+  "deploymentPlan":"p3o-canal-%appname-%version",
+  "build":"%version",
   "project":"p3o-canal",
   "deploymentTemplate":"P3O-CANAL-Deployment-Template",
   "templateCategory":"P3O-CANAL-Template-Category",
   "application":"P3O-CANAL",
   "manifest":
-    "<DeploymentManifest name='p3o-canal-appname-version' project='p3o-canal' build='version'>
+    "<DeploymentManifest name='p3o-canal-%appname-%version' project='p3o-canal' build='%version'>
       <properties>
-        <property name='p3o_app_name'>appname</property>
-        <property name='manifest_url'>manifest_url</property>
+        <property name='p3o_app_name'>%appname</property>
+        <property name='manifest_url'>%manifest_url</property>
       </properties>
     </DeploymentManifest>"
 }
