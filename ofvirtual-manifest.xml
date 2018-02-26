@@ -2,7 +2,7 @@
 <artifactsPackages>
     <artifactPackage name="BSO-OFICINA">
         <artifacts component="jboss">
-		<artifact artifactType="war" definitionName="bso-oficina" type="local" version="1.4" path="/opt/artifacts/BSO-OFICINA/bso-oficina-war-OfVirtual-1.4.war" tokenized="false" tokenPattern="@@TOKEN@@"/>
+		<artifact artifactType="war" definitionName="bso-oficina" type="local" version="1.0.0" path="/opt/artifacts/BSO-OFICINA/OfVirtual-1.0.0.war" tokenized="false" tokenPattern="@@TOKEN@@"/>
         </artifacts>         
     </artifactPackage>
 </artifactsPackages>
