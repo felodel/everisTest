@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<artifactsPackages>
+    <artifactPackage name="P3O-STATICS">
+        <artifacts component="statics">
+            <artifact artifactType="zip" definitionName="p3o-statics-cirbenocliente" type="local" version="7.6" path="/opt/artifacts/P3O-STATICS/p3o-statics-cirbenocliente-7.6.zip" tokenized="false" tokenPattern="@@TOKEN@@"/>
+        </artifacts>         
+    </artifactPackage>
+    <artifactPackage name="P3O-CANAL">        
+        <artifacts component="canal">
+            <artifact artifactType="zip" definitionName="p3o-canal-cirbenocliente" type="local" version="8.0.1" path="/opt/artifacts/P3O-CANAL/p3o-canal-cirbenocliente-8.0.1.zip" tokenized="false" tokenPattern="@@TOKEN@@"/>
+        </artifacts> 
+    </artifactPackage>
+</artifactsPackages>
