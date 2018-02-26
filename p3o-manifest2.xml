@@ -8,7 +8,7 @@
     <artifactPackage name="P3O-CANAL">        
         <artifacts component="canal">
             <artifact artifactType="zip" definitionName="p3o-canal-cirbenocliente" type="local" version="8.0.1" path="/opt/artifacts/P3O-CANAL/p3o-canal-cirbenocliente-8.0.1.zip" tokenized="false" tokenPattern="@@TOKEN@@"/>
-            <artifact artifactType="properties" definitionName="p3o-conf-cirbenocliente" type="local" version="3.0.0" path="/opt/artifacts/P3O-CANAL/p3o-conf-cirbenocliente-3.0.properties" tokenized="false" tokenPattern="@@TOKEN@@"/>
-		</artifacts> 
+            <artifact artifactType="properties" definitionName="p3o-conf-cirbenocliente" type="local" version="3.0.1" path="/opt/artifacts/P3O-CANAL/p3o-conf-cirbenocliente-3.0.properties" tokenized="false" tokenPattern="@@TOKEN@@"/>
+	</artifacts> 
     </artifactPackage>
 </artifactsPackages>
