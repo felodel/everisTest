@@ -2,8 +2,8 @@
 <artifactsPackages>
     <artifactPackage name="BSMOV">
         <artifacts component="jboss">
-            <artifact artifactType="war" definitionName="bsmov-bswallet" type="local" version="1.0" path="/opt/artifacts/BSMOV/bswallet-1.0.0.war" tokenized="false" tokenPattern="@@TOKEN@@"/>
-            <artifact artifactType="zip" definitionName="bsmov-bswallet" type="local" version="1.0" path="/opt/artifacts/BSMOV/bswallet-1.0.0.zip" tokenized="false" tokenPattern="@@TOKEN@@"/>
+            <artifact artifactType="war" definitionName="bsmov-bswallet" type="local" version="1.0.0" path="/opt/artifacts/BSMOV/bswallet-1.0.0.war" tokenized="false" tokenPattern="@@TOKEN@@"/>
+            <artifact artifactType="zip" definitionName="bsmov-bswallet" type="local" version="1.0.0" path="/opt/artifacts/BSMOV/bswallet-1.0.0.zip" tokenized="false" tokenPattern="@@TOKEN@@"/>
         </artifacts>         
     </artifactPackage>
 </artifactsPackages>
