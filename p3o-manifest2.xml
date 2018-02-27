@@ -11,4 +11,15 @@
             <artifact artifactType="properties" definitionName="p3o-conf-cirbenocliente" type="local" version="4.0" path="/opt/artifacts/P3O-CANAL/p3o-conf-cirbenocliente-4.0.properties" tokenized="true" tokenPattern="@@TOKEN@@"/>
 	</artifacts> 
     </artifactPackage>
+<artifactPackage name="P3O-APACHE-CANAL">
+        <artifacts component="apache">
+  <artifact artifactType="include" definitionName="web-proteo-bancsabadell" type="local" version="1.0.0" path="/opt/artifacts/P3O-APACHE-CANAL/web_proteo_bancsabadell_com-1.0.include" tokenized="false" tokenPattern="@@TOKEN@@"/>
+  <artifact artifactType="properties" definitionName="uriworkermap" type="local" version="1.0.0" path="/opt/artifacts/P3O-APACHE-CANAL/uriworkermap-1.0.properties" tokenized="false" tokenPattern="@@TOKEN@@"/>
+        </artifacts>         
+    </artifactPackage>
+    <artifactPackage name="P3O-APACHE-TIBCO">
+        <artifacts component="apache">
+  <artifact artifactType="include" definitionName="preservicesproteo-noSSL" type="local" version="1.0.0" path="/opt/artifacts/P3O-APACHE-TIBCO/bs.preservicesproteo_noSSL_FIND-1.0.include" tokenized="false" tokenPattern="@@TOKEN@@"/>
+        </artifacts>         
+    </artifactPackage>
 </artifactsPackages>
