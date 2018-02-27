@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<artifactsPackages>
+    <artifactPackage name="P3O-BATCH">
+        <artifacts component="batch">
+            <artifact artifactType="zip" definitionName="p3o-batch-cirbecliente" type="local" version="3.0" path="/opt/artifacts/P3O-BATCH/p3o-batch-cirbecliente-3.0.zip" tokenized="false" tokenPattern="@@TOKEN@@"/>
+        </artifacts>         
+    </artifactPackage>
+</artifactsPackages>
+
+
+
+
