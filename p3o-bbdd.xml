@@ -2,7 +2,7 @@
 <artifactsPackages>
     <artifactPackage name="P3O-BBDD">
         <artifacts component="OracleDB">
-            <artifact artifactType="zip" definitionName="p3o-statics-cirbenocliente" type="local" version="10.0" path="/opt/artifacts/P3O-BBDD/p3o-bbdd-cirbenocliente-10.0.zip" tokenized="false" tokenPattern="@@TOKEN@@"/>
+            <artifact artifactType="zip" definitionName="p3o-bbdd-cirbenocliente" type="local" version="10.0" path="/opt/artifacts/P3O-BBDD/p3o-bbdd-cirbenocliente-10.0.zip" tokenized="false" tokenPattern="@@TOKEN@@"/>
         </artifacts>         
     </artifactPackage>
 </artifactsPackages>
