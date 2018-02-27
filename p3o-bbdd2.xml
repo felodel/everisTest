@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<artifactsPackages>
+    <artifactPackage name="P3O-BBDD">
+        <artifacts component="OracleDB">
+            <artifact artifactType="zip" definitionName="p3o-statics-cirbenocliente" type="local" version="11.0" path="/opt/artifacts/P3O-BBDD/p3o-bbdd-cirbenocliente-11.0.zip" tokenized="false" tokenPattern="@@TOKEN@@"/>
+        </artifacts>         
+    </artifactPackage>
+</artifactsPackages>
+ 
+
+
+
+
+
+
