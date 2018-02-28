@@ -27,4 +27,9 @@
             <artifact artifactType="zip" definitionName="p3o-bbdd-cirbenocliente" type="local" version="10.0" path="/opt/artifacts/P3O-BBDD/p3o-bbdd-cirbenocliente-10.0.zip" tokenized="false" tokenPattern="@@TOKEN@@"/>
         </artifacts>         
     </artifactPackage>
+    <artifactPackage name="P3O-BATCH">
+        <artifacts component="batch">
+            <artifact artifactType="zip" definitionName="p3o-batch-cirbenocliente" type="local" version="3.0" path="/opt/artifacts/P3O-BATCH/p3o-batch-cirbenocliente-3.0.zip" tokenized="false" tokenPattern="@@TOKEN@@"/>
+        </artifacts>         
+    </artifactPackage>
 </artifactsPackages>
