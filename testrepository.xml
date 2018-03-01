@@ -1,9 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<artifactPackages>
-	<artifactPackage name="P3O-APACHE-TIBCO">
-		<artifacts component="apache">
-			<artifact artifactType="zip" definitionName="p3o-canal-cirbenocliente" type="repository" repositoryName="artifactory1" version="1.6" groupId="bs.proteo3.canal" artifactId="p3o-canal-cirbenocliente" tokenized="false" tokenPattern="@@TOKEN@@"/>
-			<artifact artifactType="properties" definitionName="p3o-conf-cirbenocliente" type="repository" repositoryName="artifactory2" version="1.6" groupId="bs.proteo3.conf" artifactId="cirbenocliente" tokenized="true" tokenPattern="@@TOKEN@@"/>
-		</artifacts>
-	</artifactPackage>
-</artifactPackages>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><artifactPackages><artifactPackage name="P3O-APACHE-TIBCO"><artifacts component="apache"><artifact artifactType="zip" definitionName="p3o-canal-cirbenocliente" type="repository" repositoryName="artifactory1" version="1.6" groupId="bs.proteo3.canal" artifactId="p3o-canal-cirbenocliente" tokenized="false" tokenPattern="@@TOKEN@@"/><artifact artifactType="properties" definitionName="p3o-conf-cirbenocliente" type="repository" repositoryName="artifactory2" version="1.6" groupId="bs.proteo3.conf" artifactId="cirbenocliente" tokenized="true" tokenPattern="@@TOKEN@@"/></artifacts></artifactPackage></artifactPackages>
