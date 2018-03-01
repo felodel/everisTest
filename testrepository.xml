@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<artifactsPackages>
-    <artifactPackage name="BSO-OFICINA">
-        <artifacts component="jboss">
-		<artifact artifactType="war" definitionName="bso-oficina" type="repository" version="1.0.0" url="" tokenized="false" tokenPattern="@@TOKEN@@"/>
-        </artifacts>         
-    </artifactPackage>
-</artifactsPackages>
+<artifactPackages>
+	<artifactPackage name="P3O-APACHE-TIBCO">
+		<artifacts>
+			<artifact artifactType="zip" definitionName="p3o-canal-cirbenocliente" type="repository" repositoryName="artifactory1" version="1.6" groupId="bs.proteo3.canal" artifactId="p3o-canal-cirbenocliente" tokenized="false" tokenPattern="@@TOKEN@@"/>
+			<artifact artifactType="properties" definitionName="p3o-conf-cirbenocliente" type="repository" repositoryName="artifactory2" version="1.6" groupId="bs.proteo3.conf" artifactId="cirbenocliente" tokenized="true" tokenPattern="@@TOKEN@@"/>
+		</artifacts>
+	</artifactPackage>
+</artifactPackages>
